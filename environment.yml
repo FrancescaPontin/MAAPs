@@ -1,0 +1,13 @@
+name: environment
+channels:
+- conda-forge
+
+packages:
+- geopandas
+- pandas
+- numpy
+- geoviews
+- holoviews
+- jupyter-panel-proxy
+
+
