@@ -1,12 +1,11 @@
-name: environment
+name: gv_env
 channels:
-- conda-forge
+  - conda-forge
+  - defaults
 dependencies:
-- geopandas
-- pandas
-- numpy
-- geoviews
-- holoviews
-- jupyter-panel-proxy
+  - geoviews
+  - pyogrio
+  - fiona
+  - jupyter-panel-proxy
 
 
